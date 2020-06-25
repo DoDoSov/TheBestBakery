@@ -1,0 +1,90 @@
+.container h2{
+  background: #ffffff;
+  margin-top: 5px;
+  padding: 5px;
+  margin-bottom: 5px;
+  border-radius: 15px;
+}
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@700&family=Open+Sans:wght@600&family=Source+Sans+Pro&display=swap');
+h1,h2,h3, h4, h5{
+  font-family: 'Source Sans Pro', sans-serif;
+}
+p {
+  font-family: 'Merriweather', serif;
+}
+
+.navbar-brand {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.nav-link, .dropdown-item {
+  font-size: 15px;
+  font-weight: 800;
+  text-transform: uppercase;
+}
+
+.nav-link, .nav-link:hover {
+ color: #b32b2b;
+
+}
+nav li {
+  padding: 0 18px;
+}
+
+nav li.active, nav li.active:before {
+  background-color: rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+}
+nav {
+  background-color: #ec7b57;
+
+}
+.row nav  {
+  background-color: rgb(249, 170, 170);
+}
+footer {
+  background-color: #ec7b57;
+
+}
+
+body {
+  background-color: rgb(249, 170, 170);
+}
+.carousel a:hover {
+ background: rgba(0, 0, 0, 0.2);
+}
+.carousel-caption h3{
+  color: rgb(0, 0, 0);
+}
+.carousel-caption p{
+  color: rgb(0, 0, 0);
+}
+a.page-link {
+  border: 1px solid #dc3545;
+  color: #dc3545;
+}
+
+/* active, hover */
+
+li.page-item.active .page-link, a.page-link:active, a.page-link:hover {
+  background-color: #dc3545;
+  border: 1px solid #dc3545;
+  color: #fff;
+}
+
+/* disabled */
+
+li.page-item.disabled .page-link {
+  border-color: #e6979e;
+  color: #e6979e;
+}
+
+/* focus */
+
+li.page-item.focus .page-link, a.page-link:focus {
+  box-shadow: 0 0 0 0.1rem rgba(220, 53, 69, .5);
+}
+.jumbotron {
+  background-color: #fff;
+}
